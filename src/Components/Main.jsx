@@ -3,10 +3,10 @@ export default function Main() {
   return (
     <>
       <div className="w-full h-auto px-[1rem] md:px-[4rem] pt-[9rem] pb-[4rem]">
-        <div className="max-w-[45rem] h-auto grid grid-cols-1 container">
+        <div className="max-w-[45rem] h-auto grid grid-cols-1 relative container z-20  ">
           <div className="w-full h-auto col-span-1">
             <div
-              className="text-2xl sm:text-3xl md:text-5xl text-left font-[800] duration-200"
+              className="text-2xl sm:text-3xl md:text-5xl text-left font-[800] duration-200 "
               style={{ fontFamily: "Mono Sans, sans-serif" }}
             >
               Award-winning

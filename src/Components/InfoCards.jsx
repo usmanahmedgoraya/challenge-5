@@ -5,7 +5,7 @@ import Frame2 from "../assets/Third.svg";
 export default function InfoCards() {
   return (
     <>
-      <div className="w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] mb-8">
+      <div className=" relative z-50 bg-white w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] mb-8">
         <div className="max-w-full h-auto grid md:grid-cols-2 lg:grid-cols-3 container gap-x-10">
           <div className="w-full h-auto md:col-span-1 col-span-3 mb-4">
             <div className="border border-gray-300 rounded-3xl overflow-hidden px-[1.2rem] py-[1.2rem] cursor-pointer hover:bg-cyan-50 hover:border-cyan-800 duration-1000 hover:shadow-2xl shadow-md">

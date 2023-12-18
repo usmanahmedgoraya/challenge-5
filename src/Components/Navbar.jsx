@@ -26,8 +26,11 @@ export default function Header() {
 
   return (
     <>
+    <div>
+      
+    </div>
       {isMenuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black/95 z-50 hamberg1">
+        <div className=" w-full h-[13rem] bg-black/95 z-[10000] hamberg1">
           <div className="text-white">
             <div
               className="cursor-pointer absolute top-4 right-4 md:right-16 hover:bg-gray-500 text-white p-2 rounded-full text-[1.6rem]"
@@ -56,7 +59,7 @@ export default function Header() {
           </div>
         </div>
       )}
-      <div className="w-full h-auto px-[1rem] md:px-[4rem] py-[1rem]">
+      <div className={`relative z-50 w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] `}>
         <div className="max-w-full h-auto grid grid-cols-2 container">
           <div className="w-full h-auto col-span-1 flex items-center justify-start">
             <div className="flex items-center justify-center gap-[0.5rem]">
