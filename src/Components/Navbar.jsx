@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/ph_framer-logo.svg";
-import cart from "../../public/Header/bi_cart.svg";
+import cart from "../assets/Header/bi_cart.svg";
 import useCartStore from "../Store/CartStore";
 import { FaEquals } from "react-icons/fa";
 import { MdOutlineClear } from "react-icons/md";

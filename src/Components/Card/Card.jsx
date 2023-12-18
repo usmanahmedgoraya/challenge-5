@@ -4,6 +4,7 @@ import { useState } from "react";
 import Button from "../Button";
 import useCartStore from "../../Store/CartStore";
 import { ToastContainer, toast } from 'react-toastify';
+import sample from "../../assets/Products/device-mockups-gray 1-3.png"
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,10 +15,10 @@ const Card = ({ item }) => {
         addToCart: state.addToCart
     }))
 
-    const [imageUrl, setImageUrl] = useState(item.images[0] || '/public/Products/device-mockups-gray 1-3.png');
+    const [imageUrl, setImageUrl] = useState(item.images[0] || sample);
 
     const handleImageError = () => {
-        setImageUrl('/public/Products/device-mockups-gray 1-3.png');
+        setImageUrl(sample);
     };
 
     const handleAddToCart = (item) => {
@@ -31,13 +32,13 @@ const Card = ({ item }) => {
             draggable: true,
             progress: undefined,
             theme: "dark",
-            });
+        });
     }
 
 
     return (
         <>
-            
+
             <div className="border rounded-xl p-3 flex flex-col cursor-pointer  transition-all duration-500">
                 <div className="flex justify-center items-center w-48 h-48 md:w-64 md:h-64 ">
                     <img src={imageUrl} alt="" className="rounded-md" onError={handleImageError} />
