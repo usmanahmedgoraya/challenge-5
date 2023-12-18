@@ -1,0 +1,13 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame" clip-path="url(#clip0_2_87)">
+<path id="Vector" d="M35 70C54.33 70 70 54.33 70 35C70 15.67 54.33 0 35 0C15.67 0 0 15.67 0 35C0 54.33 15.67 70 35 70Z" fill="#0A0A0A"/>
+<path id="Vector_2" d="M19.8333 16.3334H45.5L50.1667 21L45.5 25.6667H19.8333V16.3334Z" fill="white"/>
+<path id="Vector_3" d="M19.8333 30.3334H36.1667L40.8333 35L36.1667 39.6667H19.8333V30.3334Z" fill="white"/>
+<path id="Vector_4" d="M29.1667 44.3334H19.8333V53.6667H29.1667V44.3334Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2_87">
+<rect width="70" height="70" fill="white"/>
+</clipPath>
+</defs>
+</svg>
