@@ -36,8 +36,8 @@ const Products = () => {
    
     return (
         <div className='w-full min-h-screen flex flex-col items-start justify-center px-8 py-8 '>
-            <div className="my-5 flex justify-start">
-            <h1 className=" text-4xl font-bold">Shopping</h1>
+            <div className="my-5 w-full flex md:justify-start justify-center">
+            <h1 className=" text-4xl font-bold  text-center">Shopping</h1>
             </div>
             <Cards products={products} />
             <div className="w-full flex justify-center my-8">

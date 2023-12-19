@@ -3,7 +3,7 @@ import Card from "./Card"
 
 const Cards = ({ products }) => {
     return (
-        <div className="flex justify-start flex-wrap gap-4 items-center">
+        <div className="flex md:justify-start justify-center flex-wrap gap-4 items-center">
             {
                 products.map((item) => {
                     return (
