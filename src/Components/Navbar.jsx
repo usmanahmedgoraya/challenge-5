@@ -61,7 +61,7 @@ export default function Header() {
             </motion.div >
           )}
         </AnimatePresence >
-        <div className={`relative z-50 w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] rounded-t-2xl `}>
+        <div className={`relative z-50 w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] rounded-t-2xl ${isMenuOpen?"bg-black":"bg-white"} `}>
           <div className="max-w-full h-auto grid grid-cols-2 container">
             <div className="w-full h-auto col-span-1 flex items-center justify-start">
               <div className="flex items-center justify-center gap-[0.5rem]">
