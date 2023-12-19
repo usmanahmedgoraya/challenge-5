@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <>
-      <div className={`relative z-50 pt-6 bg-black transition-all duration-500 text-black ${isMenuOpen ? "min-h-screen" : "h-8"}`}>
+      <div className={`relative z-50 pt-6 bg-black transition-all duration-500 text-black ${isMenuOpen ? "min-h-screen" : "h-16"}`}>
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
