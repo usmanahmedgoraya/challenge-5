@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <>
-      <div className={`relative z-50 pt-6 bg-black transition-all duration-500 text-black ${isMenuOpen ? "min-h-screen" : ""}`}>
+      <div className={`relative z-50 pt-6 bg-black transition-all duration-500 text-black ${isMenuOpen ? "min-h-screen" : "h-8"}`}>
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
@@ -61,7 +61,7 @@ export default function Header() {
             </motion.div >
           )}
         </AnimatePresence >
-        <div className={`relative z-50 w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] rounded-t-2xl bg-white `}>
+        <div className={`relative z-50 w-full h-auto px-[1rem] md:px-[4rem] py-[1rem] rounded-t-2xl `}>
           <div className="max-w-full h-auto grid grid-cols-2 container">
             <div className="w-full h-auto col-span-1 flex items-center justify-start">
               <div className="flex items-center justify-center gap-[0.5rem]">
