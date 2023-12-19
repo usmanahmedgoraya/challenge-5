@@ -96,7 +96,7 @@ export default function Header() {
                   }
                 </div>
                 <div
-                  className="bg-[#DDDDDD] px-2.5 py-2.5 rounded-full cursor-pointer hamberg hover:bg-green-400 hover:text-white hover:shadow-2xl"
+                  className="bg-[#DDDDDD] px-2.5 py-2.5 rounded-full cursor-pointer hamberg hover:bg-[#DDDDDD]/80 hover:shadow-2xl"
                   onClick={toggleMenu}
                 >
                   <FaEquals />
