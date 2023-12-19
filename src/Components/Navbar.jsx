@@ -3,7 +3,7 @@ import logo from "../assets/ph_framer-logo.svg";
 import cart from "../assets/Header/bi_cart.svg";
 import useCartStore from "../Store/CartStore";
 import { FaEquals } from "react-icons/fa";
-import { MdOutlineClear } from "react-icons/md";
+import { MdClear, MdOutlineClear } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -95,11 +95,14 @@ export default function Header() {
                     })
                   }
                 </div>
+                
                 <div
                   className="bg-[#DDDDDD] px-2.5 py-2.5 rounded-full cursor-pointer hamberg hover:bg-[#DDDDDD]/80 hover:shadow-2xl"
                   onClick={toggleMenu}
                 >
-                  <FaEquals />
+                  {
+                    isMenuOpen?<MdClear />:<FaEquals />
+                  }
                 </div>
               </div>
             </div>
