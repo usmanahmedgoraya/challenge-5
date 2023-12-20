@@ -40,9 +40,11 @@ const Products = () => {
             <h1 className=" text-4xl font-bold  text-center">Shopping</h1>
             </div>
             <Cards products={products} />
-            <div className="w-full flex justify-center my-8">
+            {
+                totalPages<10?"":(<div className="w-full flex justify-center my-8">
                 <Pagination count={totalPages} shape="rounded" onChange={handlePaginationNumber} />
-            </div>
+            </div>)
+            }
         </div>
     )
 }

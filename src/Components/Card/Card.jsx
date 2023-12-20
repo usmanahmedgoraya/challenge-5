@@ -40,8 +40,8 @@ const Card = ({ item }) => {
         <>
 
             <div className="border rounded-xl p-3 flex flex-col cursor-pointer  transition-all duration-500">
-                <div className="flex justify-center items-center w-48 h-48 md:w-64 md:h-64 ">
-                    <img src={imageUrl} alt="" className="rounded-md" onError={handleImageError} />
+                <div className="relative flex justify-center items-center w-48 h-48 md:w-64 md:h-64 ">
+                    <img src={imageUrl} alt="" className="rounded-md w-48 h-48 md:w-64 md:h-64" onError={handleImageError}  />
                 </div>
                 <Button text="Add to Cart" position={"justify-end mx-3"} className={"bg-black hover:bg-black/80"} onClick={() => handleAddToCart(item)} />
             </div>
