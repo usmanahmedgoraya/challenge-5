@@ -26,7 +26,7 @@ const Products = () => {
     
     useEffect(() => {
         TotalProducts()
-        fetchProducts(1)
+        fetchProducts(0)
     }, [])
 
     const handlePaginationNumber = (e) =>{
